@@ -24,7 +24,8 @@ Your mission is to evade all the adversaries that appear. As you progress throug
 #### Technologies
 
 - Godot is a popular, open-source game engine that is used to create video games across various platforms such as Windows, Linux, macOS, Android, iOS, and Web. Moreover, Godot provides a visual editor that allows game developers to create and manipulate game objects, scenes, and scripts using a node-based approach. The engine supports multiple programming languages, including GDScript, C#, and C++, and also provides a powerful physics engine and animation system. We used GDScript to create nodes with animated 2D sprites for a user and the colliding objects. 
-- We used figma and Canvax 
+- We used figma and Canvax to create all the designs. 
+- Procreate for drawing all the elements. 
 
 [Back To The Top](#read-me-template)
 
