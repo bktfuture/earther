@@ -48,18 +48,22 @@ Your mission is to evade all the adversaries that appear. As you progress throug
 ---
 
 ## References
+- https://youtu.be/pATpV7MwZr8
+- https://youtu.be/QftpPI5iYrY
 - https://www.youtube.com/watch?v=WEt2JHEe-do&ab_channel=GDQuest
 - https://youtu.be/V_cioLTaDvQ
+- https://www.nationalgeographic.com/environment/article/freshwater-pollution
 
 [Back To The Top](#read-me-template)
 
 ---
 
 ## Authors Info
-- Justin Alega. LinkedIn: https://www.linkedin.com/in/anshuman-mishra-1b9876248/
-- Aiturgan (Aya) Talant. LinkedIn: https://www.linkedin.com/in/aiturgan-talant-8aa003250/
+
 - Anshuman Mishra. LinkedIn: https://www.linkedin.com/in/anshuman-mishra-1b9876248/
 - Abdalnafie Sibaie. LinkedIn: https://www.linkedin.com/in/abdalnafie-sibaie-36752922b/
+- Aiturgan (Aya) Talant. LinkedIn: https://www.linkedin.com/in/aiturgan-talant-8aa003250/
+- Justin Alega. LinkedIn: https://www.linkedin.com/in/anshuman-mishra-1b9876248/
 
 [Back To The Top](#read-me-template)
 
