@@ -1,0 +1,74 @@
+[gd_scene load_steps=31 format=2]
+
+[ext_resource path="res://Mob.gd" type="Script" id=1]
+[ext_resource path="res://art/plastic_bottles/enemy-1.png" type="Texture" id=2]
+[ext_resource path="res://art/plastic_bottles/enemy-1-4.png" type="Texture" id=3]
+[ext_resource path="res://art/oil_drill/oil_drill.png" type="Texture" id=4]
+[ext_resource path="res://art/oil_drill/imageedit_7_7213211840.png" type="Texture" id=5]
+[ext_resource path="res://art/plastic_bottles/enemy-1-5.png" type="Texture" id=6]
+[ext_resource path="res://art/oil_drill/imageedit_3_4212615997.png" type="Texture" id=7]
+[ext_resource path="res://art/plastic_bottles/enemy-1-6.png" type="Texture" id=8]
+[ext_resource path="res://art/plastic_bottles/enemy-1-7.png" type="Texture" id=9]
+[ext_resource path="res://art/plastic_bottles/enemy-1-8.png" type="Texture" id=10]
+[ext_resource path="res://art/oil_drill/imageedit_5_9000930566.png" type="Texture" id=11]
+[ext_resource path="res://art/oil_drill/imageedit_8_4054809059.png" type="Texture" id=12]
+[ext_resource path="res://art/oil_drill/imageedit_4_5961925995.png" type="Texture" id=13]
+[ext_resource path="res://art/plastic_bottles/enemy-1-3.png" type="Texture" id=14]
+[ext_resource path="res://art/oil_drill/imageedit_6_4340461013.png" type="Texture" id=15]
+[ext_resource path="res://art/plastic_bottles/enemy-1-2.png" type="Texture" id=16]
+[ext_resource path="res://hazard/hazard1.png" type="Texture" id=17]
+[ext_resource path="res://hazard/hazard4.png" type="Texture" id=18]
+[ext_resource path="res://hazard/hazard5.png" type="Texture" id=19]
+[ext_resource path="res://hazard/hazard7.png" type="Texture" id=20]
+[ext_resource path="res://hazard/hazard3.png" type="Texture" id=21]
+[ext_resource path="res://hazard/hazard10.png" type="Texture" id=22]
+[ext_resource path="res://hazard/hazard12.png" type="Texture" id=23]
+[ext_resource path="res://hazard/hazard2.png" type="Texture" id=24]
+[ext_resource path="res://hazard/hazard8.png" type="Texture" id=25]
+[ext_resource path="res://hazard/hazard6.png" type="Texture" id=26]
+[ext_resource path="res://hazard/hazard9.png" type="Texture" id=27]
+[ext_resource path="res://hazard/hazard11.png" type="Texture" id=28]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 17 ), ExtResource( 24 ), ExtResource( 21 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 26 ), ExtResource( 20 ), ExtResource( 25 ), ExtResource( 27 ), ExtResource( 22 ), ExtResource( 28 ), ExtResource( 23 ) ],
+"loop": true,
+"name": "hazard",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 7 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 15 ), ExtResource( 5 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "oil_drill",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 6 ), ExtResource( 16 ), ExtResource( 8 ), ExtResource( 14 ), ExtResource( 9 ), ExtResource( 3 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "plastic_bottle",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 45.0
+height = 0.0
+
+[node name="Mob" type="RigidBody2D" groups=["mobs"]]
+collision_mask = 0
+gravity_scale = 0.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -3, 0 )
+scale = Vector2( 0.13418, 0.13418 )
+frames = SubResource( 1 )
+animation = "hazard"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource( 2 )
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+
+[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]

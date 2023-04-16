@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Interstellar Main Theme - Hans Zimmer.mp3-d024ed677436a65fece9197487a56acb.mp3str"
+
+[deps]
+
+source_file="res://art/plastic_bottles/Interstellar Main Theme - Hans Zimmer.mp3"
+dest_files=[ "res://.import/Interstellar Main Theme - Hans Zimmer.mp3-d024ed677436a65fece9197487a56acb.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

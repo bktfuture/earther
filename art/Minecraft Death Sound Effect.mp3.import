@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Minecraft Death Sound Effect.mp3-dbfb0205574d4ce32ef7c76c036d6972.mp3str"
+
+[deps]
+
+source_file="res://art/Minecraft Death Sound Effect.mp3"
+dest_files=[ "res://.import/Minecraft Death Sound Effect.mp3-dbfb0205574d4ce32ef7c76c036d6972.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

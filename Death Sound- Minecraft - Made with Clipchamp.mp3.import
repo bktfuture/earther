@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Death Sound- Minecraft - Made with Clipchamp.mp3-d11920ab6dc526ce355467aca12c5ea1.mp3str"
+
+[deps]
+
+source_file="res://Death Sound- Minecraft - Made with Clipchamp.mp3"
+dest_files=[ "res://.import/Death Sound- Minecraft - Made with Clipchamp.mp3-d11920ab6dc526ce355467aca12c5ea1.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

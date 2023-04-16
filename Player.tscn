@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Player.gd" type="Script" id=1]
+[ext_resource path="res://Untitled_Artwork.png" type="Texture" id=3]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "Earther",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=8]
+radius = 40.8044
+
+[node name="Player" type="Area2D"]
+position = Vector2( 418, -296 )
+z_index = 10
+z_as_relative = false
+input_pickable = false
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 14.9998, 20 )
+scale = Vector2( 0.11271, 0.11271 )
+z_as_relative = false
+frames = SubResource( 1 )
+animation = "Earther"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 6, 11 )
+z_as_relative = false
+shape = SubResource( 8 )
+
+[connection signal="body_entered" from="." to="." method="_on_Player_body_entered"]
