@@ -18,12 +18,12 @@
 
 ## Description
 
-Your mission is to evade all the adversaries that appear. As you progress through each level, the number of enemies will increase, and you'll have a total of three chances to survive. However, you can only utilize one life by correctly answering a question; otherwise, you'll lose, and the game will reset. Good Luck Earther! 
+Your mission is to evade all the adversaries that appear. As you progress through each level, the number of enemies will increase, and you'll have a total of three chances to survive. However, you can only utilize one life by correctly answering a question on environmental topic; otherwise, you'll lose, and the game will reset. Good Luck Earther! 
 
 #### Technologies
 
 - Godot is a popular, open-source game engine that is used to create video games across various platforms such as Windows, Linux, macOS, Android, iOS, and Web. Moreover, Godot provides a visual editor that allows game developers to create and manipulate game objects, scenes, and scripts using a node-based approach. The engine supports multiple programming languages, including GDScript, C#, and C++, and also provides a powerful physics engine and animation system. We used GDScript to create nodes with animated 2D sprites for a user and the colliding objects. 
-- We used figma and Canvax to create all the designs. 
+- We used Figma and Canva to create all the designs. 
 - Procreate for drawing all the elements.
  
 
